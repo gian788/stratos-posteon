@@ -1,0 +1,12 @@
+.body-wrap .container {
+  width: 600px;
+}
+
+.body-wrap .container table {
+  width: 100%;
+}
+
+
+.title {
+  font-weight: bold;
+}

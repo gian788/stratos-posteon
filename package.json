@@ -1,0 +1,40 @@
+{
+  "name": "stratos-posteon",
+  "description": " ",
+  "version": "0.1.1",
+  "keywords": [
+    "mailer",
+    "posteon",
+    "stratos"
+  ],
+  "bugs": {
+    "url": "https://github.com/DigitalRockers/stratos-posteon/issues"
+  },
+  "license": "MIT",
+  "author": "Gianluca Pengo (https://github.com/gian788/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalRockers/stratos-posteon.git"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "lodash": "~4.7.0",
+    "posteon": "*",
+    "stratos-render": "*",
+    "ejs": "~1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha ./**/*.test.js"
+  },
+  "homepage": "https://github.com/DigitalRockers/stratos-posteon#readme",
+  "directories": {
+    "test": "test"
+  }
+}
